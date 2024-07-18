@@ -120,7 +120,7 @@ function Box({ children }) { // Menerima Props
 
   return (
     <div className="box">
-      <button className="btn-toggle" onClick={() => setIsOpen1((open) => !open)}>
+      <button className="btn-toggle" onClick={() => setIsOpen((open) => !open)}>
         {isOpen ? '–' : '+'}
       </button>
       {isOpen && children}
